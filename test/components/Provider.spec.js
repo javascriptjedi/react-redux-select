@@ -1,7 +1,7 @@
 import expect from 'expect'
 import React, { PropTypes, Component } from 'react'
 import TestUtils from 'react-addons-test-utils'
-import { createStore } from 'redux'
+import { createStore } from 'redux-select'
 import { Provider } from '../../src/index'
 
 describe('React', () => {

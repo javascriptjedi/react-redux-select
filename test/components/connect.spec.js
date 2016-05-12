@@ -2,7 +2,7 @@ import expect from 'expect'
 import React, { createClass, Children, PropTypes, Component } from 'react'
 import ReactDOM from 'react-dom'
 import TestUtils from 'react-addons-test-utils'
-import { createStore } from 'redux'
+import { createStore } from 'redux-select'
 import { connect } from '../../src/index'
 
 describe('React', () => {
