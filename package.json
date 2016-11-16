@@ -1,6 +1,6 @@
 {
   "name": "react-redux-select",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "React bindings for Redux-Select assuming a single Redux-Select (thunk) store",
   "main": "./lib/index.js",
   "scripts": {
@@ -96,8 +96,8 @@
     "loose-envify": "^1.1.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || 15.0.0-0",
-    "redux-select": "^1.0.0"
+    "react": "^0.14.0 || ^15.0.0-0 || ^15.4.0-0",
+    "redux-select": "3.5.x"
   },
   "browserify": {
     "transform": [
