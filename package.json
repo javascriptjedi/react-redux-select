@@ -1,6 +1,6 @@
 {
   "name": "react-redux-select",
-  "version": "4.4.1",
+  "version": "4.4.2",
   "description": "React bindings for Redux-Select assuming a single Redux-Select (thunk) store",
   "main": "./lib/index.js",
   "scripts": {
@@ -35,7 +35,10 @@
     "flux",
     "redux"
   ],
-  "author": ["Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)", "Matt Thornton <javascriptjedi@gmail.com> (http://github.com/javascriptjedi)"],
+  "author": [
+    "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+    "Matt Thornton <javascriptjedi@gmail.com> (http://github.com/javascriptjedi)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/javascriptjedi/react-redux-select/issues"
@@ -90,8 +93,13 @@
     "webpack": "^1.11.0"
   },
   "dependencies": {
+    "babel-plugin-syntax-jsx": "6.8.0",
+    "babel-plugin-transform-es2015-classes": "6.6.5",
+    "babel-plugin-transform-react-jsx": "6.8.0",
     "hoist-non-react-statics": "^1.0.3",
     "invariant": "^2.0.0",
+    "istanbul": "1.0.0-alpha.2",
+    "jsdom": "7.2.2",
     "lodash": "^4.2.0",
     "loose-envify": "^1.1.0"
   },
